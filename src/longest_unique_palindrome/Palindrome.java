@@ -143,8 +143,6 @@ class Palindrome {
 
 		obj.setTextSet(str.charAt(0) + "");
 		obj.setIndexSet(0);
-		obj.setTextSet(str.charAt(len - 1) + "");
-		obj.setIndexSet(len - 1);
 
 		for (int i = 1; i < len; ++i) {
 			/*
@@ -159,7 +157,9 @@ class Palindrome {
 			end = i + 1;
 			getPalindromeIndex(str, len, start, end);
 		}
-
+		
+		obj.setTextSet(str.charAt(len - 1) + "");
+		obj.setIndexSet(len - 1);
 	}
 
 	/**
