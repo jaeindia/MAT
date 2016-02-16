@@ -5,10 +5,10 @@
 + Generate all odd length and even length palindromes.
 
 + To generate the odd length palindromes:
-..* Fix a single center and expand in both directions to look for longer palindromes.
+++ Fix a single center and expand in both directions to look for longer palindromes.
 
 + To generate the even length palindromes:
-..* Fix two centers and expand in both directions to look for longer palindromes.
+++ Fix two centers and expand in both directions to look for longer palindromes.
 
 + Store all the palindromes in the customised data structure. Eg. NavigableMap structure of the input string - "aab"
 ```
