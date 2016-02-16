@@ -1,5 +1,42 @@
 # MAT
 
+## Problem Solution: Approach
+
++ Generate all odd length and even length palindromes.
+
++ To generate the odd length palindromes:
+..* Fix a single center and expand in both directions to look for longer palindromes.
+
++ To generate the even length palindromes:
+..* Fix two centers and expand in both directions to look for longer palindromes.
+
++ Store all the palindromes in the customised data structure. Eg. NavigableMap structure of the input string - "aab"
+```
+{
+	2=longest_unique_palindrome.PalinMapData {
+	 	textSet = [aa],
+	 	indexSet = [0]
+	 }, 
+	 1=longest_unique_palindrome.PalinMapData {
+		textSet = [a, b],
+	 	indexSet = [0, 2]
+	 }
+}
+```
+
++ Print the top N longest unique palindromes.
+
++ Time Complexity: O(n^2)
+
+### Problem Solution: Further Thoughts
+
+#### Does an O(N) solution exist ?
+
++ Manacher’s Algorithm can be used.
+
++ Implemented the O(n^2) solution since I was supposed to complete the solution within an hour or two.
+
+
 ## Source Code: Directory Structure
 
 ```
