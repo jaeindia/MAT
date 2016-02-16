@@ -64,10 +64,12 @@ cd src
 javac -d ../bin longest_unique_palindrome/*.java
 ```
 
+The src has been already compiled. Do compile if any changes have been made to the original source.
+
 ## How to Run:
 
 ```
-cd longest_unique_palindrome/bin
+cd bin
 ```
 
 ### To print the top N longest unique palindromes
@@ -100,7 +102,7 @@ Text: abccba, Index: 5, Length: 6
 
 #### Run 2
 
-java longest_unique_palindrome.Main sqrrqabccbatudefggfedvwhijkllkjihxymnnmzpop 3
+java longest_unique_palindrome.Main sqrrqabccbatudefggfedvwhijkllkjihxymnnmzpop
 
 ```
 Text: hijkllkjih, Index: 23, Length: 10
