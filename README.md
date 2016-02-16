@@ -40,14 +40,16 @@
 ## Source Code: Directory Structure
 
 ```
-\---longest_unique_palindrome
-    +---bin
-    |   \---longest_unique_palindrome
-    |           Main.class
-    |           Palindrome.class
-    |           PalinMapData.class
-    |
-    \---src
+|   README.md
+|
++---bin
+|   \---longest_unique_palindrome
+|           Main.class
+|           Palindrome.class
+|           PalinMapData.class
+|
+\---src
+    \---longest_unique_palindrome
             Main.java
             Palindrome.java
             PalinMapData.java
@@ -57,9 +59,9 @@
 ## How to Build:
 
 ```
-cd longest_unique_palindrome
+cd src
 
-javac -d bin src/*.java
+javac -d bin longest_unique_palindrome/*.java
 ```
 
 ## How to Run:
