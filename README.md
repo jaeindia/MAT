@@ -61,7 +61,7 @@
 ```
 cd src
 
-javac -d bin longest_unique_palindrome/*.java
+javac -d ../bin longest_unique_palindrome/*.java
 ```
 
 ## How to Run:
