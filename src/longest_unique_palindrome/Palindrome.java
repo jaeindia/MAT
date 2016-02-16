@@ -184,6 +184,8 @@ class Palindrome {
 	 * 
 	 * @param str
 	 *            Input String.
+	 * @param printAll
+	 * 	      Flag value to print all the possible unique palindromes.
 	 * @return Nothing.
 	 */
 	void findLongestPalindrome(String str, boolean printAll) {
